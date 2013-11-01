@@ -8,10 +8,10 @@ task :default => :spec
 
 desc "Ejecutar la práctica"
 task :bin do
-	sh "ruby /lib/prac6.rb"
+	sh "ruby /lib/prct07.rb"
 end
 
 desc "Ejecutar los test usando RSpec"
 task :test do
-	sh "rspec spec/prac6_spec.rb"
+	sh "rspec spec/prct07_spec.rb"
 end
